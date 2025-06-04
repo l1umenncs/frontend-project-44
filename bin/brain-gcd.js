@@ -1,7 +1,7 @@
 #!/usr/bin/env node 
 
 import { gcd, generationNumber } from '../src/helpers/helpers.js'
-import runGame from '../src/runGame'
+import runGame from '../src/runGame.js'
 
 const generationGcdQuestion = () => {
     const a = generationNumber()
@@ -11,7 +11,7 @@ const generationGcdQuestion = () => {
 
     const question = `${a} ${b}`
 
-    return [question, correctQuestion]
+    return [question, correctAnswer]
 }
 
 const description = 'Find the greatest common divisor of given numbers'
