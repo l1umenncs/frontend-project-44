@@ -7,7 +7,7 @@ const generateProgressionQuestion = () => {
   const arr = generationArithmeticProgression()
   const [newArr, correctAnswer] = replaceRandomWithDots(arr)
 
-  const question = newArr.join(' ')
+  const question = `Question: ${newArr.join(' ')}`;
 
   return [question, correctAnswer]
 }
