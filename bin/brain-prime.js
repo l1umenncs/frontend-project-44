@@ -1,4 +1,4 @@
-#!usr/bin/env node
+#!/usr/bin/env node
 
 import runGame from '../src/runGame.js'
 import { generationNumber, isPrime } from '../src/helpers/helpers.js'
