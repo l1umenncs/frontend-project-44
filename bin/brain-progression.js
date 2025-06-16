@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-
 import { generationArithmeticProgression, replaceRandomWithDots } from '../src/helpers/helpers.js'
 import runGame from '../src/runGame.js'
 
