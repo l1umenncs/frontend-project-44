@@ -15,5 +15,7 @@ brain-prime:
 	node bin.brain-prime.js
 publish:
 	npm publish --dry-run
+link:
+	npm link
 make lint:
 	npx eslint --fix .
